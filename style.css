@@ -1,14 +1,228 @@
-.margen {
-    background-color: rgb(203, 238, 134);
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 15px;
-    width: 97%;
-    max-width: 100rem;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
 
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.he{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.barra{
+    display: flex;
+    margin-right: 20px;
+}
+
+.lg{
+    margin-left: 30px;
+}
+
+.lg a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.barra a {
+    display: block;
+    padding: 30px 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.barra a:hover{
+    background: rgb(72, 71, 71);
+    height: 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 50vh !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ti{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.parr{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+ul{
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.par2{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid blanchedalmond;
+    color: black;
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-inicio{
+    display: flex;
+}
+
+.btn-inicio a{
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fut {
+    padding: 100px;
+    height: 850px;
+    background-image: linear-gradient(rgba(136, 129, 129, 0.7), rgba(136, 129, 129, 0.2)), url(fut.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ca{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ca .bo{
+    height: 12.8rem;
+    width: 18rem;
+    background-color: green;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+}
+
+.ca .bo h3{
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+}
+
+.ca .bo p{
+    font-size: 16px;
+    padding: 0 15px;
+    margin-top: 5px;
+}
+
+.ca .bo img{
+    margin-top: 15px;
+}
+
+.fa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.fa .hg{
+    height: 20rem;
+    width: 20rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+}
+
+.fa .hg h3{
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.fa .hg p{
+    font-size: 16px;
+    padding: 0 15px;
+    margin-top: 5px;
+}
+
+.fa .hg img{
+    margin-top: 60px;
+}
+
+.neg{
+    padding: 200px;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(negocios.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.por{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pregunta.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .ti{
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    .fut {
+        height: 230vh;
+    }
+    .neg{
+        height: 80vh;
+    }
 }

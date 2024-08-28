@@ -1,0 +1,285 @@
+Código
+<!DOCTYPE html>
+<html lang="en" style="background-color: wheat;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestras carreras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="servicios-profesionales.png" type="image/png">
+</head>
+<body>
+    <div class="he">
+        <div class="lg">
+            <img src="servicios-profesionales.png" alt="Logo" width="50px" height="50px">
+        </div>
+
+        <nav class="barra">
+            <li><a href="#ini">Inicio</a></li>
+            <li><a href="#fut">Futbolista</a></li>
+            <li><a href="#neg">Negocios internacionales</a></li>
+            <li><a href="#por">¿Por qué las elegimos?</a></li>
+        </nav>
+    </div>
+
+    <header class="content header" id="ini">
+        <h2 class="ti">Inicio</h2>
+        <p>Hay q mirar q poner</p>
+    </header>
+
+    <section class="content fut" id="fut">
+        <h2 class="ti">Futbolista</h2>
+        <p>Un futbolista es un atleta especializado en el deporte del fútbol, 
+            que entrena y compite en partidos para desarrollar y aplicar 
+            habilidades técnicas, tácticas y físicas. Los futbolistas 
+            pueden jugar a nivel profesional, en ligas nacionales e internacionales,
+            o a nivel amateur, en equipos locales o universitarios. Su carrera 
+            implica un compromiso constante con el entrenamiento, la estrategia de juego, 
+            y la preparación física y mental. Además de participar en competiciones, los futbolistas 
+            suelen trabajar con entrenadores y otros profesionales para mejorar su rendimiento 
+            y contribuir al éxito de su equipo. La carrera de un futbolista también puede incluir 
+            la gestión de la imagen personal, la participación en actividades 
+            mediáticas y la planificación para la vida después del deporte. Este es un pedezo 
+            de la página 
+            <a href="https://futboljobs.com/ser-futbolista-es-una-profesion/#:~
+            :text=Los%20pasos%20a%20seguir%20para,la%20cima%20del%20f%C3%BAtbol%20mundial.">
+            futboljobs</a>: "Los pasos a seguir para ser futbolista profesional no son fáciles. 
+            Se requiere de una gran dedicación, entrenamiento, y sacrificio personal. 
+            Además, la competencia es muy alta y solo unos pocos jugadores pueden 
+            llegar a la cima del fútbol mundial."</p>
+        <div class="ca">
+            <div class="bo">
+                <i class="fab fa-ball"></i>
+                <h3>Subtitulo</h3>
+                <p>Mas cosas</p>
+            </div>
+            <div class="bo">
+                <i class="fab fa-ball"></i>
+                <h3>Subtitulo</h3>
+                <p>Mas cosas</p>
+            </div>
+            <div class="bo">
+                <i class="fab fa-ball"></i>
+                <h3>Subtitulo</h3>
+                <p>Mas cosas</p>
+            </div>
+        </div>
+        <a href="#" class="btn">Inicio</a>
+    </section>
+
+    <section class="content neg" id="neg">
+        <h2 class="ti">Negocios Internacionales</h2>
+        <p>La carrera de Negocios Internacionales se centra en la gestión y 
+            estrategia de empresas en un contexto global. Los profesionales 
+            en este campo estudian cómo operar y competir en mercados 
+            internacionales, incluyendo aspectos como comercio exterior, 
+            finanzas globales, marketing internacional, y regulación y 
+            legislación global. La carrera abarca el análisis de economías 
+            internacionales, la negociación intercultural, y el desarrollo de 
+            estrategias para la expansión global de empresas. Los graduados en 
+            Negocios Internacionales suelen trabajar en roles relacionados con 
+            la gestión de exportaciones e importaciones, relaciones internacionales,
+            y consultoría en empresas multinacionales y organizaciones internacionales. </p>
+        <a href="#" class="btn">Inicio</a>
+    </section>
+
+    <section class="content por" id="por">
+        <h2 class="ti">¿Por qué las elegimos?</h2>
+        <p>Poner razones</p>
+        <a href="#" class="btn">Inicio</a>
+    </section>
+
+</body>
+</html>
+
+
+Estilos
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.he{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.barra{
+    display: flex;
+    margin-right: 20px;
+}
+
+.lg{
+    margin-left: 30px;
+}
+
+.lg a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.barra a {
+    display: block;
+    padding: 30px 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.barra a:hover{
+    background: rgb(72, 71, 71);
+    height: 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 70vh !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ti{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid blanchedalmond;
+    color: black;
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-inicio{
+    display: flex;
+}
+
+.btn-inicio a{
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fut {
+    padding: 100px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(fut.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ca{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ca .bo{
+    height: 11rem;
+    width: 17rem;
+    background-color: blue;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+}
+
+.ca .bo i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: black;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.ca .bo h3{
+    font-size: 20px;
+    color: white;
+}
+
+.ca .bo p{
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.neg{
+    padding: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(negocios.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.por{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pregunta.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .ti{
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    .fut {
+        height: 230vh;
+    }
+    .neg{
+        height: 80vh;
+    }
+}
